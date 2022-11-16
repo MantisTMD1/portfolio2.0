@@ -14,7 +14,7 @@ html, body {
 }
 
 .App{
-  height: 100vh; 
+  height: 400vh; 
   background-color: #07041E;
   z-index: -1;
 

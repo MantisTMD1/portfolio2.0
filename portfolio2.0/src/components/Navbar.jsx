@@ -10,7 +10,7 @@ const NavMenu = (props) => {
       </a>
 
       <a className="menu-item" href="/">
-        About
+       <span>01.</span>about
       </a>
 
       <a
@@ -19,15 +19,15 @@ const NavMenu = (props) => {
         target="_blank"
         rel="noreferrer"
       >
-        Tech
+       <span>02.</span>Tech
       </a>
 
       <a className="menu-item" href="/">
-        Projects
+      <span>03.</span>Projects
       </a>
 
       <a className="menu-item" href="/">
-        Contact
+      <span>04.</span>Contact
       </a>
     </Menu>
   );

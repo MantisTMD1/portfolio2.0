@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Typed from "react-typed";
 import "../styles/typed.css";
+import { BsGithub, BsInstagram } from "react-icons/bs";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { AiOutlineLinkedin} from "react-icons/ai";
 
 class Typedcomponent extends Component {
   render() {
@@ -11,7 +14,13 @@ class Typedcomponent extends Component {
         <div className="header-2">
           <Typed strings={["I am a Frontend Developer"]} typeSpeed={50}></Typed>
         </div>
-      </div>
+        <BsGithub size={40} id = "social-icon"/>
+        <AiOutlineLinkedin size={40} id = "social-icon"/>
+        <MdOutlineMailOutline size={40} id = "social-icon"/>
+        <BsInstagram size={40} id = "social-icon"/>
+ </div>
+
+
     );
   }
 }

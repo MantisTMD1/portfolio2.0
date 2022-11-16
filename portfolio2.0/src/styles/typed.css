@@ -2,6 +2,7 @@
   text-align: center;
   padding-top: 400px;
   color: #ff8692;
+
   font-size: 52px;
   font-family: "JetBrains Mono", monospace;
   letter-spacing: 0.04rem;
@@ -12,8 +13,25 @@
 }
 
 .header-2 {
-  color: white;
+  color: #bdc3c7;
   font-size: 32px;
+}
+
+#social-icon {
+  padding-top: 42px;
+  color: #bdc3c7;
+  margin-right: 24px;
+  cursor: pointer;
+  top: 0;
+  transition: transform ease 300ms;
+  filter: drop-shadow(0px 0px 3px #bdc3c7);
+}
+
+#social-icon:hover{
+color: #ff8692;
+transition: ease-in-out 0.3s;
+transform: translate(0, -10px);
+filter: drop-shadow(0px 0px 3px #ff8692);
 }
 
 @media only screen and (max-width: 600px) {
@@ -22,8 +40,11 @@
     font-size: 32px;
   }
 
-.header-2 {
-font-size: 24px;
-}
-}
+  .header-2 {
+    font-size: 24px;
+  }
 
+  #social-icon {
+    size: 24px !important;
+  }
+}

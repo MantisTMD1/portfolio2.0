@@ -1,4 +1,42 @@
-.about{
-height: 50vh;
-padding-top: 150px;
+.about {
+  height: 50vh;
+  padding-top: 250px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #bdc3c7;
+}
+
+.about h3 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  font-size: 32px;
+}
+
+.about span {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.about p {
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  letter-spacing: 0.04rem;
+  line-height: 24px;
+}
+
+.about img {
+  height: 250px;
+  width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
 }
