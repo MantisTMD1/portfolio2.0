@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="about">
       <h3>
-        <span>01.</span> About Me
+        <span>01.</span>About Me
       </h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

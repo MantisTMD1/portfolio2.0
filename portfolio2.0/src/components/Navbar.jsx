@@ -10,7 +10,7 @@ const NavMenu = (props) => {
       </a>
 
       <a className="menu-item" href="/">
-       <span>01.</span>about
+       <span>01.</span>About
       </a>
 
       <a
