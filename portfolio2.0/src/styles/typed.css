@@ -1,0 +1,29 @@
+.header {
+  text-align: center;
+  padding-top: 400px;
+  color: #ff8692;
+  font-size: 52px;
+  font-family: "JetBrains Mono", monospace;
+  letter-spacing: 0.04rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-2 {
+  color: white;
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding-top: 250px;
+    font-size: 32px;
+  }
+
+.header-2 {
+font-size: 24px;
+}
+}
+

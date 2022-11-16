@@ -1,0 +1,108 @@
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  width: 32px;
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 18px;
+  color: #d1d1d1;
+  transition: color 0.3s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: #ff8692 !important;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 32px;
+  height: 22px;
+  right: 48px;
+  top: 48px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+  border-radius: 60px;
+  height: 5px;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 32px;
+  width: 32px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+.bm-cross:hover {
+  color: #ff8692;
+  transition: ease-in-out 0.3s;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #241d4e;
+  padding: 40px 32px 0;
+  font-size: 24px;
+  margin-bottom: -2px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* hover effect */
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05rem;
+  background-image: linear-gradient(to left, #ff8692, #ff8692 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+a:before {
+  content: "";
+  background: #ff8692;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  background-position: 0;
+  width: 65%;
+}
+
+a:hover::before {
+  width: 100%;
+}
