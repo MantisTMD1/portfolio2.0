@@ -94,6 +94,7 @@ a {
 span{
   font-family: 'Courier New', Courier, monospace;
   font-weight: 300;
+  color: #ff8692
 }
 
 a:before {

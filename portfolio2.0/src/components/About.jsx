@@ -8,14 +8,19 @@ function About() {
       <h3>
         <span>01.</span>About Me
       </h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur.
+      <img
+        src={Selfie}
+        data-aos="flip-left"
+        alt="Profesional headshot"
+        class="responsive"
+      ></img>
+      <p data-aos="flip-right">
+        Hello world! I'm Evan, a web developer based in Minneapolis, MN. I love
+        building and designing websites and web applications. If you like what
+        you see on here or you just want to chat shoot me a message. Otherwise,
+        check out some of my projects below!
       </p>
-      <img src={Selfie} alt="Profesional headshot" class="responsive"></img>
+     
     </div>
   );
 }

@@ -11,6 +11,7 @@ class Typedcomponent extends Component {
       <div className="header">
         <Typed strings={["Hi, I am WebDevEv"]} typeSpeed={30} />
         <br></br>
+        
         <div className="header-2">
           <Typed strings={["I am a Frontend Developer"]} typeSpeed={50}></Typed>
         </div>
