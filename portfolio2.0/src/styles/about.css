@@ -6,6 +6,9 @@
   margin-right: auto;
   margin-left: auto;
   color: #bdc3c7;
+  display: block;
+  align-items: center;
+  text-align: center;
 }
 
 .about h3 {
@@ -14,7 +17,7 @@
   letter-spacing: 0.04rem;
   font-size: 32px;
   color: #bdc3c7;
-  margin-bottom: -4px;
+  
 }
 
 .about span {
@@ -25,18 +28,18 @@
 }
 
 .about p {
-  float: right;
   margin-top: 28px;
-  max-width: 600px;
   color: #bdc3c7;
   font-size: 18px;
   font-family: "Titillium Web", sans-serif;
   letter-spacing: 0.04rem;
   line-height: 24px;
-  text-align: center;
 }
 
 .about img {
+  border-radius: 50%;
+  border: 1.5px solid #ecb879;
+  background: #92a5fd;
   height: 300px;
   width: auto;
   margin-bottom: 18px;
@@ -52,7 +55,11 @@
     margin-left: none;
     text-align: center;
   }
+
   .about p {
-    float: none;
+  max-width: 500px;
+
   }
+
+
 }

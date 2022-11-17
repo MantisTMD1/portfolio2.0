@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.tech {
+  height: 50vh;
+  padding-top: 250px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.tech h3 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  font-size: 32px;
+  color: #bdc3c7;
+  text-align: center;
+}
+
+.icons-container {
+  display: grid;
+  justify-items: center;
+}
+#html-icon {
+  margin-top: 24px;
+  padding: 8px;
+  color: #e54c21;
+}
+
+#css-icon {
+  margin-top: 24px;
+  padding: 8px;
+  color: #324bde;
+}
+
+#js-icon {
+  margin-top: 24px;
+  padding: 8px;
+  color: #eed819;
+}
+
+#react-icon {
+  margin-top: 24px;
+  padding: 8px;
+  color: #61dafb;
+}
+
+#node-icon {
+  margin-top: 24px;
+  padding: 8px;
+  color: #63985c;
+}
+
+#tech-icon-span {
+  color: #bdc3c7;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'VT323', monospace;
+}
+@media only screen and (max-width: 600px) {
+  .tech {
+    margin-top: 300px;
+  }
+
+  .icons-container {
+    padding-top: 24px;
+    display: grid;
+    justify-items: center;
+  }
+}
