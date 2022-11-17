@@ -14,7 +14,7 @@ function Tech() {
             <span>01.</span>Technologies
           </h3>
         </AnimationOnScroll>
-        <div className="icons-container">
+        <div data-aos="fade-up"data-aos-easing="ease-in-out" className="icons-container" >
           <SiHtml5 size={120} id="html-icon" /><span id ="tech-icon-span">HTML</span>
           <IoLogoCss3 size={120} id="css-icon" /><span id ="tech-icon-span">CSS</span>
           <SiJavascript size={120} id="js-icon" /><span id ="tech-icon-span">JAVASCRIPT</span>

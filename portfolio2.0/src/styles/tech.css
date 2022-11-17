@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 .tech {
   height: 50vh;
-  padding-top: 250px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 100px;
+  padding-right: 25px;
+  padding-left: 25px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 200px;
@@ -25,6 +25,9 @@
 .icons-container {
   display: grid;
   justify-items: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 50px;
 }
 #html-icon {
   margin-top: 24px;
@@ -57,10 +60,10 @@
 }
 
 #tech-icon-span {
-  color: #bdc3c7;
+  color: black;
   font-size: 32px;
   font-weight: 400;
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
 }
 @media only screen and (max-width: 600px) {
   .tech {

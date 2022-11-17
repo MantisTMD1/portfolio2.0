@@ -17,7 +17,6 @@
   letter-spacing: 0.04rem;
   font-size: 32px;
   color: #bdc3c7;
-  
 }
 
 .about span {
@@ -29,6 +28,8 @@
 
 .about p {
   margin-top: 28px;
+  margin-left: 200px;
+  margin-right: 200px;
   color: #bdc3c7;
   font-size: 18px;
   font-family: "Titillium Web", sans-serif;
@@ -57,9 +58,8 @@
   }
 
   .about p {
-  max-width: 500px;
-
+    max-width: 500px;
+    margin-left: 18px;
+    margin-right: 18px;
   }
-
-
 }

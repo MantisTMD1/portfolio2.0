@@ -18,7 +18,7 @@
 
 /* Change color on hover */
 .bm-item:hover {
-  color: #ff8692!important;
+  color: #ff8692 !important;
 }
 
 /* The rest copied directly from react-burger-menu docs */
@@ -49,15 +49,17 @@
 /* Color/shape of close button cross */
 .bm-cross {
   background: #bdc3c7;
+  font-size: 32px !important;
 }
 .bm-cross:hover {
-  color: #ff8692;
+  background: #ff8692;
   transition: ease-in-out 0.3s;
 }
 
 /* General sidebar styles */
 .bm-menu {
-  background: #1E1E5D;
+  background: #1e1e5d;
+  border: #bdc3c7;
   /* opacity: 0.5; */
   padding: 52px 32px 0;
   font-size: 24px;
@@ -71,8 +73,6 @@
 .bm-overlay {
   background: rgba(0, 0, 0, 0.8);
 }
-
-
 
 /* hover effect */
 a {
@@ -91,10 +91,10 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-span{
-  font-family: 'Courier New', Courier, monospace;
+span {
+  font-family: "Courier New", Courier, monospace;
   font-weight: 300;
-  color: #ff8692
+  color: #ff8692;
 }
 
 a:before {
@@ -116,4 +116,11 @@ a:hover {
 
 a:hover::before {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  a:hover {
+    
+    color: inherit;
+  }
 }
