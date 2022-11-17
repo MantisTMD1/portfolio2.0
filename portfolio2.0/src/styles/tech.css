@@ -47,6 +47,12 @@
   color: #eed819;
 }
 
+#bootstrap-icon{
+  margin-top: 24px;
+  padding: 8px;
+  color: #7811f2;
+}
+
 #react-icon {
   margin-top: 24px;
   padding: 8px;
@@ -64,6 +70,29 @@
   font-size: 32px;
   font-weight: 400;
   font-family: "VT323", monospace;
+
+}
+
+
+.buzzword-list{
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: left;
+}
+
+.buzzword-list ul li{
+font-size: 32px;
+font-family: "VT323", monospace;
+letter-spacing: 0.2rem;
+color: #bdc3c7;
+}
+
+.buzzword-list li{
+  margin: 12px 0;
 }
 @media only screen and (max-width: 600px) {
   .tech {

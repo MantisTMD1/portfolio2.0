@@ -3,6 +3,7 @@ import Navmenu from './components/Navbar.jsx';
 import Typedcomponent from './components/Typedcomponent.jsx';
 import About from './components/About.jsx';
 import Tech from './components/Tech.jsx';
+import Projects from './components/Projects.jsx';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -16,6 +17,7 @@ function App() {
       <Typedcomponent />
       <About />
       <Tech />
+      <Projects />
 
     </div>
   );

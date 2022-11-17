@@ -1,0 +1,20 @@
+.projects{
+height: 50vh;
+padding-top: 1300px;
+}
+
+.projects h3{
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+    font-size: 32px;
+    color: #bdc3c7;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+.projects{
+padding-top: 1600px;
+}
+}

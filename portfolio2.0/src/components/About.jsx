@@ -11,7 +11,7 @@ function About() {
           <span>00.</span>About Me
         </h3>
       </AnimationOnScroll>
-      <div data-aos="fade-up"data-aos-easing="ease-in-out">
+      <div data-aos="zoom-in-up"data-aos-easing="ease-in-out">
       <img src={Selfie} alt="Profesional headshot" className="responsive"></img>
       
         <p>
