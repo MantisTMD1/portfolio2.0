@@ -25,7 +25,7 @@
 .icons-container {
   display: grid;
   justify-items: center;
-  background-color: #ffffff;
+  background-color: #92a5fd;
   border-radius: 25px;
   padding: 50px;
 }
@@ -66,9 +66,10 @@
 }
 
 #tech-icon-span {
-  color: black;
+  color: #ffff;
   font-size: 32px;
   font-weight: 400;
+  letter-spacing: 0.03rem;
   font-family: "VT323", monospace;
 
 }
@@ -103,5 +104,8 @@ color: #bdc3c7;
     padding-top: 24px;
     display: grid;
     justify-items: center;
+  }
+  .buzzword-list ul li{
+font-size: 24px;
   }
 }

@@ -9,8 +9,8 @@
   display: inline-block;
   width: 32px;
   text-decoration: none;
-  margin-bottom: 18px;
-  color: #d1d1d1;
+  margin-bottom: 24px;
+  color: #d1d1d1 !important;
   transition: color 0.3s;
 }
 
@@ -42,10 +42,6 @@
   background: #bdc3c7;
   font-size: 32px !important;
 }
-.bm-cross:hover {
-  background: #ff8692;
-  transition: ease-in-out 0.3s;
-}
 
 .bm-menu {
   background: #1e1e5d;
@@ -64,7 +60,7 @@
 }
 
 /* hover effect */
-.bm-item a {
+.bm-item {
   font-family: "JetBrains Mono", monospace;
   font-weight: 500;
   letter-spacing: 0.05rem;
@@ -86,7 +82,7 @@ span {
   color: #ff8692;
 }
 
-.bm-item a:before {
+.bm-item:before {
   content: "";
   background: #ff8692;
   display: block;
@@ -98,17 +94,17 @@ span {
   transition: all 0.3s ease-in-out;
 }
 
- .bm-item a:hover {
+.bm-item:hover {
   background-position: 0;
   width: 70%;
 }
 
-.bm-item a:hover::before {
+.bm-item:hover::before {
   width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-  .bm-item a:hover {
+  .bm-item:hover {
     
     color: inherit;
   }

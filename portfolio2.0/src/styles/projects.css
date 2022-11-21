@@ -19,10 +19,8 @@
 }
 
 .projects img {
-
   overflow: hidden;
   border-radius: 22.5%;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   width: 300px;
   height: 300px;
 }
@@ -30,26 +28,24 @@
 .img-hover-zoom {
   margin-top: 32px;
   border-radius: 22.5%;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1.2px solid rgba(255, 134, 146, 0.125);
   height: 300px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 .img-hover-zoom img {
   transition: transform 0.5s ease;
   border-radius: 22.5%;
-  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .img-hover-zoom:hover img {
   border-radius: 22.5%;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1.2px solid rgba(255, 134, 146, 0.125);
   transform: scale(1.5);
   cursor: pointer;
 }
 
-
-#spotify-image{
-height: 300px;
-width: 300px;
+#spotify-image {
+  height: 300px;
+  width: 300px;
 }
 #link-title {
   color: #bdc3c7;
@@ -66,17 +62,15 @@ width: 300px;
   font-size: 16px;
   text-align: center;
   line-height: 24px;
+ }
 
-
-}
-
-#spotify-api-link{
+#spotify-api-link {
   text-decoration: none !important;
   color: #ff8692;
 }
 
 @media only screen and (max-width: 600px) {
   .projects {
-    padding-top: 1600px;
+    padding-top: 1700px;
   }
 }

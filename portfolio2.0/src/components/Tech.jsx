@@ -20,27 +20,27 @@ function Tech() {
           data-aos-once="true"
           className="icons-container"
         >
-          <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
+          <AnimationOnScroll animateIn="animate__bounceIn">
             <SiHtml5 size={120} id="html-icon" />
           </AnimationOnScroll>
           <span id="tech-icon-span">HTML</span>
-          <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
+          <AnimationOnScroll animateIn="animate__bounceIn">
             <IoLogoCss3 size={120} id="css-icon" />
           </AnimationOnScroll>
           <span id="tech-icon-span">CSS</span>
-          <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
+          <AnimationOnScroll animateIn="animate__bounceIn">
             <SiJavascript size={120} id="js-icon" />
           </AnimationOnScroll>
           <span id="tech-icon-span">JAVASCRIPT(ES6+)</span>
-          <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
+          <AnimationOnScroll animateIn="animate__bounceIn">
             <SiBootstrap size={120} id="bootstrap-icon" />
           </AnimationOnScroll>
           <span id="tech-icon-span">BOOTSTRAP</span>
-          <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
+          <AnimationOnScroll animateIn="animate__bounceIn">
             <FaReact size={120} id="react-icon" />
           </AnimationOnScroll>
           <span id="tech-icon-span">REACTJS</span>
-          <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
+          <AnimationOnScroll animateIn="animate__bounceIn">
             <FaNodeJs size={120} id="node-icon" />
           </AnimationOnScroll>
           <span id="tech-icon-span">NODEJS</span>
