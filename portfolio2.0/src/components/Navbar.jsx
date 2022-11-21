@@ -1,7 +1,7 @@
 import React from "react";
 import { stack as Menu } from "react-burger-menu";
 import "../styles/navbar.css";
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+// import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const NavMenu = (props) => {
   return (

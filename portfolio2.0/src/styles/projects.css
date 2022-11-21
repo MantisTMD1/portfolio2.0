@@ -1,20 +1,69 @@
-.projects{
-height: 50vh;
-padding-top: 1300px;
+.projects {
+  height: 75vh;
+  padding-top: 1300px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  justify-items: center;
 }
 
-.projects h3{
-    font-family: "JetBrains Mono", monospace;
-    font-weight: 500;
-    letter-spacing: 0.04rem;
-    font-size: 32px;
-    color: #bdc3c7;
-    text-align: center;
+.projects h3 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  font-size: 32px;
+  color: #bdc3c7;
+  text-align: center;
 }
 
+.projects img {
+  overflow: hidden;
+  border-radius: 22.5%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: auto;
+  height: 300px;
+  filter: grayscale(0%);
+}
+
+.img-hover-zoom {
+  border-radius: 22.5%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+  border-radius: 22.5%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.img-hover-zoom:hover img {
+  border-radius: 22.5%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+#link-title {
+  color: #bdc3c7;
+  font-size: 22px;
+  letter-spacing: 0.03rem;
+  font-weight: 500;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#link-description {
+  font-family: "Titillium Web", sans-serif;
+  color: #bdc3c7;
+  letter-spacing: 0.03rem;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
 
 @media only screen and (max-width: 600px) {
-.projects{
-padding-top: 1600px;
-}
+  .projects {
+    padding-top: 1600px;
+  }
 }

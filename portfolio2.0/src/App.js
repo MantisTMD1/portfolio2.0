@@ -8,11 +8,12 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 
+
 function App() {
   Aos.init();
   return (
     <div className="App">
-
+    
       <Navmenu />
       <Typedcomponent />
       <About />

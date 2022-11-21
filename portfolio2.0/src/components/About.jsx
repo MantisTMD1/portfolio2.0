@@ -11,8 +11,8 @@ function About() {
           <span>00.</span>About Me
         </h3>
       </AnimationOnScroll>
-      <div data-aos="zoom-in-up"data-aos-easing="ease-in-out">
-      <img src={Selfie} alt="Profesional headshot" className="responsive"></img>
+      <div>
+      <img src={Selfie} alt="Profesional headshot"  data-aos="flip-down"data-aos-easing="ease-in-out" data-aos-duration="1000" className="responsive"></img>
       
         <p>
           Hello world! I'm Evan, a web developer based in Minneapolis, MN. I
