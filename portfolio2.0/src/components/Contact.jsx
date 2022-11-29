@@ -10,6 +10,11 @@ function Contact() {
           <span>03.</span>Contact Form
         </h3>
       </AnimationOnScroll>
+
+
+
+
+      
     </div>
   );
 }

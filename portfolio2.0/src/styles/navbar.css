@@ -24,12 +24,11 @@
   right: 48px;
   top: 48px;
 }
-
 .bm-burger-bars {
-  animation: 2s ease-out 0s 1 FadeIn;
   background: #ff8692;
   border-radius: 60px;
-  height: 7px;
+
+  height: 4px !important;
 }
 
 .bm-cross-button {

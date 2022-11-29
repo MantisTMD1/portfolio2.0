@@ -9,11 +9,13 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useState, useEffect } from "react";
 import Startup from './components/Startup.jsx';
+import ScrollButton from './components/Scrollbutton.jsx';
 
 
 
 
 function App() {
+  
   const [className, setClassName] = useState("startscreen")
 
   useEffect(() => {
@@ -23,20 +25,22 @@ function App() {
     return () => clearTimeout(timer)
   }, [])
   Aos.init();
-  return (
-    
  
+  return (
+
     <div className="App">
-    <Startup className={className}/>
+      <Startup className={className} />
       <Navmenu />
       <Typedcomponent />
       <About />
       <Tech />
       <Projects />
       <Contact />
+      <ScrollButton />
 
     </div>
-  
+
+
   );
 }
 
