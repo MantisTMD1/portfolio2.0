@@ -1,10 +1,24 @@
-html, body {
-  margin:0;
-  padding:0;
+html,
+body {
+  margin: 0;
+  padding: 0;
   overscroll-behavior: none;
   scroll-behavior: smooth;
 }
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
 
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
 
 /* mobile styling */
 @media only screen and (max-width: 600px) {
@@ -15,9 +29,9 @@ html, body {
   }
 }
 
-.App{
-  height: 750vh; 
-  background-color: #07041E;
+.App {
+  height: 750vh;
+  background-color: #07041e;
 }
 
 /* 

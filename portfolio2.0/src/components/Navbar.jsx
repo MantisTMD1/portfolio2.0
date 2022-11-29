@@ -7,7 +7,6 @@ const NavMenu = (props) => {
   return (
     <Menu {...props} right width={"280px"}>
       <Link
-        eventKey="1"
         smooth={true}
         to="header"
         isDynamic={true}
@@ -42,7 +41,7 @@ const NavMenu = (props) => {
       </Link>
 
       <Link
-      // smooth={true}
+        // smooth={true}
         smooth="easeInCubic"
         to="contact"
         offset={700}

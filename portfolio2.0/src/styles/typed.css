@@ -1,4 +1,14 @@
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .header {
+  height: 50vh;
   text-align: center;
   padding-top: 400px;
   color: #ff8692;
@@ -11,27 +21,30 @@
   margin-left: auto;
 }
 
-.header-2 span{
+.header-2 span {
   color: #bdc3c7;
   font-size: 32px;
+  animation: 2s ease-out 0s 1 FadeIn;
 }
 
 #social-icon {
+  animation: 2s ease-out 0s 1 FadeIn;
   padding-top: 42px;
   color: #bdc3c7;
   margin-right: 24px;
   cursor: pointer;
   top: 0;
   transition: transform ease 300ms;
-  filter: drop-shadow(0px 0px 3px #bdc3c7);
+  /* filter: drop-shadow(0px 0px 3px #bdc3c7); */
 }
 
-#social-icon:hover{
-color: #ff8692;
-transition: ease-in-out 0.3s;
-transform: translate(0, -10px);
-filter: drop-shadow(0px 0px 3px #ff8692);
+#social-icon:hover {
+  color: #ff8692;
+  transition: ease-in-out 0.3s;
+  transform: translate(0, -10px);
+  filter: drop-shadow(0px 0px 3px #ff8692);
 }
+
 
 @media only screen and (max-width: 600px) {
   .header {
@@ -45,11 +58,9 @@ filter: drop-shadow(0px 0px 3px #ff8692);
 
   #social-icon {
     size: 24px !important;
-
   }
 
-  .social-icon-div{
-  padding-top: 48px;
+  .social-icon-div {
+    padding-top: 48px;
   }
-
 }

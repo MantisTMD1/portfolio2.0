@@ -28,7 +28,7 @@
 .img-hover-zoom {
   margin-top: 32px;
   border-radius: 22.5%;
-  border: 1.2px solid rgba(255, 134, 146, 0.125);
+  border: 1px solid rgba(255, 134, 146);
   height: 300px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
@@ -38,8 +38,9 @@
 }
 .img-hover-zoom:hover img {
   border-radius: 22.5%;
-  border: 1.2px solid rgba(255, 134, 146, 0.125);
+  border: 1px solid rgba(255, 134, 146);
   transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 

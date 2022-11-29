@@ -1,21 +1,23 @@
-.contact{
-padding-top: 800px;
-text-align: center;
+.contact {
+  padding-top: 800px;
+  padding-top: 1300px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
-
-
 .contact h3 {
-    font-family: "JetBrains Mono", monospace;
-    font-weight: 500;
-    letter-spacing: 0.04rem;
-    font-size: 32px;
-    color: #bdc3c7;
-  }
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  font-size: 32px;
+  color: #bdc3c7;
+}
 
-
-  @media only screen and (max-width: 600px) {
-  .contact{
-  padding-top: 1200px;
+@media only screen and (max-width: 600px) {
+  .contact {
+    padding-top: 1200px;
   }
-  }
+}

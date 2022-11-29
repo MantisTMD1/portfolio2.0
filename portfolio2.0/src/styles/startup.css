@@ -1,0 +1,281 @@
+
+
+
+
+@media only screen and (max-width: 2000px) {
+  .start-title-lit {
+    color: #ff8692;
+    margin-bottom: 10px;
+    font-weight: bold;
+    outline: none;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    animation: animate 2s linear infinite, movement 2s linear;
+    animation-direction: alternate;
+    font-size: 9rem;
+    margin: 0;
+  }
+
+  @keyframes animate {
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65%,
+    80%,
+    90.1%,
+    92% {
+      color: rgb(255, 134, 146);
+      box-shadow: none;
+    }
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    100% {
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 10px rgb(255, 134, 146), 0 0 20px rgb(255, 134, 146),
+        0 0 40px rgb(255, 134, 146), 0 0 80px rgb(255, 134, 146),
+        0 0 160px rgb(255, 134, 146);
+    }
+  }
+
+  .startscreen {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #07041e;
+    z-index: 2;
+    /* animation: starting 4s linear; */
+  }
+
+  @keyframes starting {
+    0% {
+      opacity: 100%;
+    }
+    60% {
+      opacity: 100%;
+    }
+    100% {
+      opacity: 0%;
+    }
+  }
+
+  .progress-bar {
+    position: absolute;
+    margin-top: 25%;
+    width: 500px;
+    height: 3em;
+    border-radius: 1em;
+    background-color: #07041e;
+    border: 3px rgb(255, 134, 146) solid;
+    color: white;
+    animation: fadeout 2s linear;
+  }
+
+  .progress-bar::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    left: 0.3em;
+    top: 0.33em;
+    width: 100%;
+    min-width: 0.1rem;
+    max-width: 91.5%;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(255, 134, 146), 0 0 20px rgb(255, 134, 146),
+      0 0 40px rgb(255, 134, 146);
+    border-radius: 0.5em;
+    padding: 1em;
+    animation: loading 1s linear;
+  }
+
+  @keyframes loading {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  @keyframes leftMovement {
+    0% {
+      margin-right: 0%;
+    }
+    20% {
+      margin-right: 0%;
+    }
+    39% {
+      margin-right: 0%;
+    }
+    50% {
+      margin-right: 400px;
+      opacity: 90%;
+    }
+    65.1% {
+      margin-right: 600px;
+      opacity: 70%;
+    }
+    80% {
+      margin-right: 800px;
+      opacity: 40%;
+    }
+    100% {
+      margin-right: 1000px;
+      opacity: 0%;
+    }
+  }
+
+  @keyframes fadeout {
+    0% {
+      opacity: 100%;
+    }
+    33% {
+      opacity: 100%;
+    }
+    100% {
+      opacity: 0%;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .start-title-lit {
+    color: rgb(255, 134, 47);
+    font-weight: bold;
+    outline: none;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 3rem !important;
+    animation: animate 2s linear infinite, movement 2s linear;
+    animation-direction: alternate;
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0004); */
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  @keyframes animate {
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65%,
+    80%,
+    90.1%,
+    92% {
+      color: rgb(255, 134, 146);
+      box-shadow: none;
+    }
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    100% {
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 10px rgb(2255, 134, 146), 0 0 20px rgb(255, 134, 146),
+        0 0 40px rgb(255, 134, 146), 0 0 80px rgb(255, 134, 146),
+        0 0 160px rgb(255, 134, 146);
+    }
+  }
+
+  .startscreen {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #07041e;
+    z-index: 2;
+  }
+  .progress-bar {
+    position: absolute;
+    width: 240px;
+    height: 3em;
+    border-radius: 1em;
+    background-color: #07041e;
+    border: 3px rgb(255, 134, 146) solid;
+    color: white;
+    animation: fadeout 2s linear;
+    margin-top: 45%;
+  }
+
+  .progress-bar::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    left: 0.3em;
+    top: 0.33em;
+    width: 100%;
+    min-width: 0.1rem;
+    max-width: 81.5%;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(255, 134, 146), 0 0 20px rgb(255, 134, 146),
+      0 0 40px rgb(255, 134, 146);
+    border-radius: 0.5em;
+    padding: 1em;
+    animation: loading 1s linear;
+  }
+
+  @keyframes loading {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  @keyframes leftMovement {
+    0% {
+      margin-right: 0%;
+    }
+    20% {
+      margin-right: 0%;
+    }
+    39% {
+      margin-right: 0%;
+    }
+    50% {
+      margin-right: 400px;
+      opacity: 90%;
+    }
+    65.1% {
+      margin-right: 600px;
+      opacity: 70%;
+    }
+    80% {
+      margin-right: 800px;
+      opacity: 40%;
+    }
+    100% {
+      margin-right: 1000px;
+      opacity: 0%;
+    }
+  }
+
+  @keyframes fadeout {
+    0% {
+      opacity: 100%;
+    }
+    50% {
+      opacity: 100%;
+    }
+    90% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 0%;
+    }
+  }
+}
