@@ -10,7 +10,7 @@ class Typedcomponent extends Component {
   render() {
     return (
       <>
-        <div className="header">
+        <div id="home">
           <Delayed waitBeforeShow={2500}>
             <Typed
               strings={["Hi, I'm Evan"]}

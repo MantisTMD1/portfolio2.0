@@ -10,7 +10,7 @@ function Tech() {
   return (
     
     <>
-      <div className="tech">
+      <div id="tech">
         <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
           <h3>
             <span>01.</span>Tech Stack

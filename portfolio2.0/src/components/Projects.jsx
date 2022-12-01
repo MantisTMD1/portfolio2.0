@@ -7,7 +7,7 @@ import Spotify from "../assets/spotifyclone.png";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id="projects">
       <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
         <h3>
           <span>02.</span>Projects
@@ -24,7 +24,7 @@ function Projects() {
           rel="noopener noreferrer"
         >
           {" "}
-          <img src={Lakelife} className="responsive"></img>
+          <img src={Lakelife} className="responsive" alt="Lakelife"></img>
         </a>
       </div>
       <br></br>
@@ -56,6 +56,7 @@ function Projects() {
             src={Portfolio}
             id="portfolio-image"
             className="responsive"
+            alt="Portfolio"
           ></img>
         </a>
       </div>
@@ -88,10 +89,15 @@ function Projects() {
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
       >
-        <a>
+     
           {" "}
-          <img src={Spotify} id="spotify-image" className="responsive"></img>
-        </a>
+          <img
+            src={Spotify}
+            id="spotify-image"
+            className="responsive"
+            alt="Spotify App"
+          ></img>
+     
       </div>
       <br></br>
       <span id="link-title" data-aos="fade-up" data-aos-easing="ease-in-out">
@@ -112,10 +118,10 @@ function Projects() {
         >
           Spotify
         </a>
-        's free to premium members API by following their documentation. This app can search for
-        songs, create and save playlists. This site is no longer live because
-        Heroku dropped their free hosting model. Currently refactoring for
-        Netlify. This site was also built in React.{" "}
+        's free to premium members API by following their documentation. This
+        app can search for songs, create and save playlists. This site is no
+        longer live because Heroku dropped their free hosting model. Currently
+        refactoring for Netlify. This site was also built in React.{" "}
       </span>
     </div>
   );

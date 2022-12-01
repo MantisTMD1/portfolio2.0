@@ -1,4 +1,4 @@
-.projects {
+#projects {
   height: 75vh;
   padding-top: 1300px;
   padding-right: 15px;
@@ -7,9 +7,10 @@
   margin-left: auto;
   display: grid;
   justify-items: center;
+  scroll-margin-top: -1300px;
 }
 
-.projects h3 {
+#projects h3 {
   font-family: "JetBrains Mono", monospace;
   font-weight: 500;
   letter-spacing: 0.04rem;
@@ -18,7 +19,7 @@
   text-align: center;
 }
 
-.projects img {
+#projects img {
   overflow: hidden;
   border-radius: 22.5%;
   width: 300px;
@@ -71,9 +72,10 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .projects {
+  #projects {
     padding-top: 1700px;
     text-align: center;
+    scroll-margin-top: -1700px;
   }
 
   #link-description {

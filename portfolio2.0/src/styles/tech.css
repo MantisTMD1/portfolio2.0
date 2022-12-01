@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
-.tech {
+#tech {
   height: 50vh;
   padding-top: 100px;
   padding-right: 25px;
@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.tech h3 {
+#tech h3 {
   font-family: "JetBrains Mono", monospace;
   font-weight: 500;
   letter-spacing: 0.04rem;
@@ -95,7 +95,7 @@
   margin: 12px 0;
 }
 @media only screen and (max-width: 600px) {
-  .tech {
+  #tech {
     margin-top: 300px;
     text-align: center;
   }
@@ -107,6 +107,6 @@
   }
   .buzzword-list ul li {
     font-size: 24px;
-text-align: left;
+    text-align: left;
   }
 }

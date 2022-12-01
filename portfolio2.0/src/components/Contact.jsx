@@ -58,7 +58,7 @@ function Contact() {
 
   return (
     <>
-      <div className="contact">
+      <div id="contact">
         <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
           <h3>
             <span>03.</span>Contact Form
@@ -101,7 +101,12 @@ function Contact() {
 
             <br></br>
             <label className="form-inputs">Message</label>
-            <textarea rows="4" id="text-area" name="message"></textarea>
+            <textarea
+              id="text-area"
+              name="message"
+              value={message}
+              onChange={handleChange}
+            ></textarea>
             <br></br>
             <button
               type="submit"

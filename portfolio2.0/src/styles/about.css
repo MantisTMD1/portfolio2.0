@@ -1,4 +1,4 @@
-.about {
+#about {
   height: 50vh;
   padding-top: 250px;
   padding-right: 15px;
@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.about h3 {
+#about h3 {
   font-family: "JetBrains Mono", monospace;
   font-weight: 500;
   letter-spacing: 0.04rem;
@@ -19,13 +19,13 @@
   color: #bdc3c7;
 }
 
-.about span {
+#about span {
   font-family: "Courier New", Courier, monospace;
   font-weight: 300;
   color: #ff8692;
 }
 
-.about p {
+#about p {
   margin-top: 28px;
   margin-left: 200px;
   margin-right: 200px;
@@ -36,7 +36,7 @@
   line-height: 24px;
 }
 
-.about img {
+#about img {
   border-radius: 50%;
   border: 3px solid #ecb879;
   background: #92a5fd;
@@ -46,17 +46,17 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .about {
+  #about {
     display: block;
     align-items: center;
     text-align: center;
   }
-  .about h3 {
+  #about h3 {
     margin-left: none;
     text-align: center;
   }
 
-  .about p {
+  #about p {
     max-width: 500px;
     margin-left: 18px;
     margin-right: 18px;
