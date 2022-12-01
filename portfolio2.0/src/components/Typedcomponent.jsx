@@ -22,7 +22,7 @@ class Typedcomponent extends Component {
           <div className="header-2">
             <Delayed waitBeforeShow={3000}>
               <Typed
-                strings={["I'm a software devleoper"]}
+                strings={["I am a software developer"]}
                 typeSpeed={60}
               ></Typed>
             </Delayed>

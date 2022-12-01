@@ -10,12 +10,13 @@ import 'aos/dist/aos.css';
 import { useState, useEffect } from "react";
 import Startup from './components/Startup.jsx';
 import ScrollButton from './components/Scrollbutton.jsx';
+import Footer from './components/Footer';
 
 
 
 
 function App() {
-  
+
   const [className, setClassName] = useState("startscreen")
 
   useEffect(() => {
@@ -25,7 +26,7 @@ function App() {
     return () => clearTimeout(timer)
   }, [])
   Aos.init();
- 
+
   return (
 
     <div className="App">
@@ -36,6 +37,7 @@ function App() {
       <Tech />
       <Projects />
       <Contact />
+      <Footer />
       <ScrollButton />
 
     </div>

@@ -30,13 +30,13 @@ body {
 }
 
 .App {
-  height: 800vh;
+  height: 630vh;
   background-color: #07041e;
 }
 
-/* 
+
 @media only screen and (max-width: 600px) {
   .App{
-  
+    height: 900vh;
   }
-} */
+}
