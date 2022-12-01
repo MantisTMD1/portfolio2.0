@@ -5,13 +5,15 @@ import { SiHtml5, SiJavascript, SiBootstrap } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 
+
 function Tech() {
   return (
+    
     <>
       <div className="tech">
         <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
           <h3>
-            <span>01.</span>Technologies
+            <span>01.</span>Tech Stack
           </h3>
         </AnimationOnScroll>
         <div

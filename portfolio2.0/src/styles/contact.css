@@ -1,11 +1,28 @@
 .contact {
   padding-top: 800px;
-  padding-top: 1300px;
+  height: 80vh;
+  max-height: 80vh;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+
+.contact-container {
+  max-width: 500px;
+  max-height: 75vh;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  background-color: rgb(146, 165, 253);
+  border: solid 3px white;
+  border-radius: 10px;
+  padding: 50px;
 }
 
 .contact h3 {
@@ -16,8 +33,97 @@
   color: #bdc3c7;
 }
 
+#email-error {
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  letter-spacing: 0.04rem;
+}
+.form-inputs {
+  padding-bottom: 12px;
+  margin-top: 16px;
+  color: #373a47;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
+  display: block;
+  align-items: center;
+}
+
+#message {
+  border-style: none;
+  border-radius: 10px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
+
+#message:active {
+  border: none;
+  outline: none;
+}
+
+#submit-button {
+  padding-bottom: 12px;
+  margin-top: 16px;
+  border-style: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ff8692;
+  border-radius: 5px;
+  padding: 12px 30px 12px 30px;
+  color: #ff8692;
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  letter-spacing: 0.3rem;
+  background-color: #1e1e5d;
+  transition: linear 0.3s;
+  font-weight: bold;
+}
+
+#submit-button:hover {
+  color: #1e1e5d;
+  background-color: #ff8692;
+  box-shadow: 0 0 10px #ff8692, 0 0 20px #ff8692;
+  cursor: pointer;
+}
+
+#text-area {
+  height: 150px;
+  width: 300px;
+  border-style: none;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+#text-area:active {
+  border: none;
+  outline: none;
+}
+
+.name-email {
+  width: 300px;
+}
+
+.contact p {
+  color: #373a47;
+  line-height: 20px;
+  text-align: left;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+}
 @media only screen and (max-width: 600px) {
   .contact {
     padding-top: 1200px;
+  }
+
+  #text-area {
+    height: 100px;
+    width: 200px;
+  }
+  .name-email {
+    width: 200px;
   }
 }

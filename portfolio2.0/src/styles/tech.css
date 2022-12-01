@@ -25,7 +25,8 @@
 .icons-container {
   display: grid;
   justify-items: center;
-  background-color: #92a5fd;
+  background-color: rgb(146, 165, 253);
+  border: solid 3px white;
   border-radius: 25px;
   padding: 50px;
 }
@@ -96,6 +97,7 @@
 @media only screen and (max-width: 600px) {
   .tech {
     margin-top: 300px;
+    text-align: center;
   }
 
   .icons-container {
@@ -105,7 +107,6 @@
   }
   .buzzword-list ul li {
     font-size: 24px;
-    text-align: left !important;
-    margin-right: 32px;
+text-align: left;
   }
 }
