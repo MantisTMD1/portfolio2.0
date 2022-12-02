@@ -7,6 +7,7 @@ import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [name, setName] = useState("");
+  const [email, SetEmail] = useState("");
   const [error, setError] = useState(null);
   const [message, setMessage] = useState("");
   const form = useRef();
@@ -19,6 +20,13 @@ function Contact() {
     }, 1000);
     return () => clearTimeout(timer);
   }, [buttonText]);
+
+  function handleSubmit(e) {
+    console.log(name, email, message);
+    setName("");
+    SetEmail("");
+    setMessage("");
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -35,6 +43,7 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+
           alert("Thanks for reaching out!");
         },
         (error) => {
@@ -84,7 +93,9 @@ function Contact() {
               id="message"
               name="message"
               value={name}
-              onChange={(e) => setName(e.target.value)}
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
             />
 
             <br></br>
@@ -95,8 +106,10 @@ function Contact() {
               id="message"
               name="message"
               type="email"
-              value={message}
-              onChange={handleChange}
+              value={email}
+              onChange={(e) => {
+                SetEmail(e.target.value);
+              }}
             />
 
             <br></br>
@@ -105,14 +118,20 @@ function Contact() {
               id="text-area"
               name="message"
               value={message}
-              onChange={handleChange}
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
             ></textarea>
             <br></br>
             <button
               type="submit"
               value="Submit"
               id="submit-button"
-              onClick={() => setButtonText("Success!")}
+              onChange={handleChange}
+              onClick={() => {
+                handleSubmit();
+                setButtonText("Success!");
+              }}
             >
               {buttonText}
             </button>
