@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/contact.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import { useState } from "react";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
@@ -83,7 +82,14 @@ function Contact() {
             My inbox is always open! I love hearing about new opportunities, big
             or small. Whether you have a question or just want to say hi, I'll
             try my best to get back to you. Feel free to send a message with the
-            form below or click here to directly email me.
+            form below or click{" "}
+            <a
+              href="mailto:evan.stmartin.dev@gmail.com"
+              id="email-contact-form"
+            >
+              here
+            </a>{" "}
+            to email me directly.
           </p>
           <form ref={form} onSubmit={sendEmail}>
             <label className="form-inputs">Name</label>
@@ -127,7 +133,6 @@ function Contact() {
               type="submit"
               value="Submit"
               id="submit-button"
-              onChange={handleChange}
               onClick={() => {
                 handleSubmit();
                 setButtonText("Success!");
@@ -137,9 +142,9 @@ function Contact() {
             </button>
           </form>
           {error && (
-            <h3 id="email-error" style={{ color: "#373a47" }}>
+            <h4 id="email-error" style={{ color: "#373a47" }}>
               {error}
-            </h3>
+            </h4>
           )}
         </div>
       </div>

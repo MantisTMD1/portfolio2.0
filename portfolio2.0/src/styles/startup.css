@@ -10,7 +10,7 @@
     outline: none;
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
-    animation: animate 2s linear infinite, movement 2s linear;
+    animation: animate 2.5s linear infinite, movement 2.5s linear;
     animation-direction: alternate;
     font-size: 8.5rem;
     letter-spacing: 0.3rem;
@@ -158,7 +158,7 @@
     animation: animate 2s linear infinite, movement 2s linear;
     animation-direction: alternate;
     /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0004); */
-    
+
     margin: 0;
   }
 

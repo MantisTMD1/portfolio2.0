@@ -27,7 +27,7 @@
   padding: 50px;
 }
 
-#contact  h3 {
+#contact h3 {
   font-family: "JetBrains Mono", monospace;
   font-weight: 500;
   letter-spacing: 0.04rem;
@@ -108,22 +108,29 @@
   width: 300px;
 }
 
-#contact  p {
+#contact p {
   color: #373a47;
   line-height: 20px;
+  letter-spacing: 0.03rem;
   text-align: left;
   justify-content: center;
   font-size: 16px;
   font-family: "Titillium Web", sans-serif;
 }
+
+#email-contact-form{
+text-decoration: none !important;
+font-family: "Titillium Web", sans-serif;
+color: #86ff9f;
+}
 @media only screen and (max-width: 600px) {
-  #contact  {
+  #contact {
     padding-top: 1200px;
     scroll-margin-top: -1200px;
   }
 
   .contact-container {
-    box-shadow: 1em 0 0.5em #86ff9f, -1em 0 0.5em #ff8692;
+    box-shadow: none;
   }
 
   #text-area {
