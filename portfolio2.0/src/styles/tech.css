@@ -109,4 +109,36 @@
     font-size: 24px;
     text-align: left;
   }
+
+  #html-icon {
+    height: 5rem;
+    font-size: 3.75em;
+  }
+
+  #css-icon {
+    height: 5rem;
+    font-size: 3.75em;
+  }
+  #js-icon {
+    height: 5rem;
+    font-size: 3.75em;
+  }
+  #bootstrap-icon {
+    height: 5rem;
+    font-size: 3.75em;
+  }
+
+  #react-icon {
+    height: 5rem;
+    font-size: 3.75em;
+  }
+
+  #node-icon {
+    height: 5rem;
+    font-size: 3.75em;
+  }
+
+  #tech-icon-span {
+    font-size: 28px;
+  }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Typed from "react-typed";
 import "../styles/typed.css";
-import { BsGithub, BsInstagram } from "react-icons/bs";
+import { BsGithub} from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import Delayed from "../components/Delayed.jsx";
@@ -22,14 +22,14 @@ class Typedcomponent extends Component {
           <div className="header-2">
             <Delayed waitBeforeShow={3000}>
               <Typed
-                strings={["I am a software developer"]}
-                typeSpeed={60}
+                strings={["I'm a software developer"]}
+                typeSpeed={50}
               ></Typed>
             </Delayed>
           </div>
 
           <div className="social-icon-div">
-            <Delayed waitBeforeShow={4500}>
+            <Delayed waitBeforeShow={3000}>
               <a
                 href="https://github.com/MantisTMD1"
                 target="_blank"
@@ -46,13 +46,6 @@ class Typedcomponent extends Component {
               </a>
               <a href="mailto:evan.stmartin.dev@gmail.com">
                 <MdOutlineMailOutline size={40} id="social-icon" />
-              </a>
-              <a
-                href="https://www.instagram.com/evanstm011/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <BsInstagram size={40} id="social-icon" />
               </a>
             </Delayed>
           </div>
